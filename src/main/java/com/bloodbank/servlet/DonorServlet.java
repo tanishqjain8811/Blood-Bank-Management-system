@@ -17,6 +17,6 @@ public class DonorServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h2>Blood Bank Donor Servlet Active</h2>");
+        out.println("<h2>ADDED THIS FILE: Blood  Bank Donor Servlet Active</h2>");
     }
 }
